@@ -54,32 +54,9 @@ const PROJECTS = [
 ];
 
 const SKILLS = [
-  {
-    name: "Frontend",
-    icon: <Globe size={18} />,
-    items: [
-      { name: "HTML/CSS", level: 90 },
-      { name: "Flutter (Frontend)", level: 70 },
-    ]
-  },
-  {
-    name: "Backend & Data",
-    icon: <Terminal size={18} />,
-    items: [
-      { name: "Python", level: 80 },
-      { name: "Django (learning)", level: 50 },
-      { name: "SQL", level: 70 },
-      { name: "Firebase basics", level: 60 },
-    ]
-  },
-  {
-    name: "Tools",
-    icon: <Cpu size={18} />,
-    items: [
-      { name: "Git", level: 85 },
-      { name: "VS Code", level: 95 },
-    ]
-  },
+  { name: "Frontend", icon: <Globe size={18} />, items: ["HTML/CSS", "Flutter (Frontend)"] },
+  { name: "Backend & Data", icon: <Terminal size={18} />, items: ["Python", "Django (learning)", "SQL", "Firebase basics"] },
+  { name: "Tools", icon: <Cpu size={18} />, items: ["Git", "VS Code"] },
 ];
 
 // --- COMPONENTS ---
@@ -229,21 +206,9 @@ const Skills = () => (
             </div>
             <ul className="space-y-3">
               {category.items.map((item) => (
-                <li key={item.name} className="text-slate-400 text-sm">
-                  <div className="skill-row">
-                    <div className="skill-left">
-                      <div className="skill-dot" aria-hidden></div>
-                      <div className="skill-name">{item.name}</div>
-                    </div>
-                    <div className="skill-right">
-                      <span className={`skill-pill ${item.level >= 80 ? 'advanced' : item.level >= 60 ? 'intermediate' : 'learning'}`}>
-                        {item.level >= 80 ? 'Advanced' : item.level >= 60 ? 'Intermediate' : 'Learning'}
-                      </span>
-                      <div className="skill-bar" aria-hidden>
-                        <div className="skill-fill" style={{ width: `${item.level}%` }}></div>
-                      </div>
-                    </div>
-                  </div>
+                <li key={item} className="flex items-center gap-2 text-slate-400 text-sm">
+                  <div className="w-1.5 h-1.5 rounded-full bg-emerald-500/50"></div>
+                  {item}
                 </li>
               ))}
             </ul>
