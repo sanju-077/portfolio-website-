@@ -165,13 +165,19 @@ const About = () => (
       <div className="grid md:grid-cols-2 gap-12 items-center">
         <div className="space-y-6 text-slate-400 leading-relaxed">
           <p>
-            Hello! My name is sanjeevi kumar and I enjoy creating things that live on the internet. My interest in web development started back in 2015 when I decided to try editing custom Tumblr themes — turns out hacking together HTML & CSS was pretty fun!
+            Hey — I’m Sanjeevi, a developer who loves building things that feel smooth, simple, and genuinely useful. I’m currently studying at DTU, and somewhere between late-night debugging and college chaos, I discovered that I enjoy solving problems that actually help people.
           </p>
+
           <p>
-            Fast-forward to today, and I've had the privilege of working at an advertising agency, a start-up, and a huge corporation. My main focus these days is building accessible, inclusive products and digital experiences.
+            I’ve worked on a few cool things — like the backend for an emotional-analysis prototype for SIH, and a Flutter app where I handled the entire frontend. I’m also growing fast in Python, SQL, and currently diving deep into Django.
           </p>
+
           <p>
-            When I'm not at the computer, I'm usually hanging out with my cat, reading sci-fi novels, or hiking.
+            I’m not someone who pretends to know everything. I just learn quickly, ship fast, and figure things out as I go. If there’s a challenge, I’ll take it apart, understand it, and build something better from it.
+          </p>
+
+          <p>
+            I like clean code, meaningful products, and working with people who think the same. If you want to build something interesting — let’s talk.
           </p>
         </div>
         
