@@ -23,7 +23,7 @@ const PERSONAL_INFO = {
   tagline: "Crafting distinct web experiences with modern tech.",
   about: "I build accessible, high-performance web applications with React and TypeScript. I enjoy turning complex problems into simple, elegant products and shipping long-lasting solutions.",
   socials: [
-    { name: "GitHub", url: "https://github.com", icon: <Github size={20} /> },
+    { name: "GitHub", url: "https://github.com/sanju-077", icon: <Github size={20} /> },
     { name: "LinkedIn", url: "https://linkedin.com", icon: <Linkedin size={20} /> },
     { name: "Twitter", url: "https://twitter.com", icon: <Twitter size={20} /> },
   ]
@@ -144,10 +144,16 @@ const Hero = () => (
           Get In Touch
         </a>
         <a 
-          href="#projects" 
+          href="https://github.com/sanju-077" target="_blank" rel="noreferrer" 
           className="px-8 py-3 border border-slate-700 hover:border-emerald-500 text-slate-300 hover:text-emerald-400 font-semibold rounded-lg transition-all"
         >
           View Work
+        </a>
+        <a
+          href="https://github.com/sanju-077" target="_blank" rel="noreferrer"
+          className="px-4 py-3 border border-slate-700 text-slate-300 hover:text-emerald-400 rounded-lg flex items-center gap-2"
+        >
+          <Github size={18} /> View GitHub
         </a>
       </div>
     </div>
@@ -268,8 +274,8 @@ const Projects = () => (
       </div>
       
       <div className="mt-16 text-center">
-        <a href="#" className="inline-flex items-center gap-2 text-emerald-400 font-medium hover:underline underline-offset-4">
-          View Full Project Archive <ExternalLink size={16} />
+        <a href="https://github.com/sanju-077?tab=repositories" target="_blank" rel="noreferrer" className="inline-flex items-center gap-2 text-emerald-400 font-medium hover:underline underline-offset-4">
+          View Full Project Archive on GitHub <ExternalLink size={16} />
         </a>
       </div>
     </div>
