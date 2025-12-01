@@ -45,9 +45,9 @@ const PROJECTS = [
     github: "#"
   },
   {
-    title: "Streamlytics",
-    description: "Real-time event dashboards and visualizations for streaming analytics, designed to handle high-throughput data with low latency.",
-    tags: ["D3", "WebSockets", "Node.js"],
+    title: "Move 75",
+    description: "A Flutter fitness-tracking app that monitors workouts and heart rate and syncs activities with Strava. Built with a focus on accurate metrics, battery-efficient background tracking, and a clean mobile-first UX.",
+    tags: ["Flutter", "Dart", "Strava API"],
     link: "#",
     github: "#"
   }

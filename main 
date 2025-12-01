@@ -26,14 +26,28 @@ const PERSONAL_INFO = {
     { name: "GitHub", url: "https://github.com/sanju-077", icon: <Github size={20} /> },
     { name: "LinkedIn", url: "https://linkedin.com", icon: <Linkedin size={20} /> },
     { name: "Twitter", url: "https://twitter.com", icon: <Twitter size={20} /> },
-  ]
+  ];
 };
 
 const PROJECTS = [
   {
-    title: "Nebula Dashboard",
-    description: `A high-performance analytics dashboard for SaaS platforms. Features real-time data visualization via WebSockets and a customizable widget system.`,
-    tags: ["React", "Next.js", "TypeScript", "D3.js"],
+    title: "Personal Portfolio",
+    description: `This portfolio and blog where I share projects, case studies and experiments. Built with React and focused on speed and accessibility.`,
+    tags: ["React", "Vite", "CSS"],
+    link: "#projects",
+    github: "#"
+  },
+  {
+    title: "Taskly — Smart Task Manager",
+    description: "A productivity app that intelligently schedules tasks and syncs with calendars. Includes offline-first sync and a lightweight mobile view.",
+    tags: ["React", "Node.js", "PostgreSQL"],
+    link: "#",
+    github: "#"
+  },
+  {
+    title: "Move 75",
+    description: "A Flutter fitness-tracking app that monitors workouts and heart rate and syncs activities with Strava. Built with a focus on accurate metrics, battery-efficient background tracking, and a clean mobile-first UX.",
+    tags: ["Flutter", "Dart", "Strava API"],
     link: "#",
     github: "#"
   },
