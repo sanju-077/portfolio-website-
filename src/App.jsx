@@ -21,7 +21,7 @@ const PERSONAL_INFO = {
   name: "sanjeevi kumar",
   role: "Full Stack Engineer",
   tagline: "Crafting distinct web experiences with modern tech.",
-  about: "I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products at TechFlow. I love the intersection of performance and aesthetics.",
+  about: "I build accessible, high-performance web applications with React and TypeScript. I enjoy turning complex problems into simple, elegant products and shipping long-lasting solutions.",
   socials: [
     { name: "GitHub", url: "https://github.com", icon: <Github size={20} /> },
     { name: "LinkedIn", url: "https://linkedin.com", icon: <Linkedin size={20} /> },
@@ -31,32 +31,32 @@ const PERSONAL_INFO = {
 
 const PROJECTS = [
   {
-    title: "Nebula Dashboard",
-    description: "A high-performance analytics dashboard for SaaS platforms. Features real-time data visualization via WebSockets and a customizable widget system.",
-    tags: ["React", "Next.js", "TypeScript", "D3.js"],
+    title: "Personal Portfolio",
+    description: "This portfolio and blog where I share projects, case studies and experiments. Built with React and focused on speed and accessibility.",
+    tags: ["React", "Vite", "CSS"],
+    link: "#projects",
+    github: "#"
+  },
+  {
+    title: "Taskly — Smart Task Manager",
+    description: "A productivity app that intelligently schedules tasks and syncs with calendars. Includes offline-first sync and a lightweight mobile view.",
+    tags: ["React", "Node.js", "PostgreSQL"],
     link: "#",
     github: "#"
   },
   {
-    title: "Chronos Task Manager",
-    description: "An AI-powered productivity tool that automatically schedules tasks based on your energy levels and calendar availability.",
-    tags: ["React Native", "Firebase", "OpenAI API"],
-    link: "#",
-    github: "#"
-  },
-  {
-    title: "Aether UI Kit",
-    description: "An open-source component library built with Tailwind CSS and Framer Motion, focused on micro-interactions and accessibility.",
-    tags: ["Vue", "Tailwind", "Storybook"],
+    title: "Streamlytics",
+    description: "Real-time event dashboards and visualizations for streaming analytics, designed to handle high-throughput data with low latency.",
+    tags: ["D3", "WebSockets", "Node.js"],
     link: "#",
     github: "#"
   }
 ];
 
 const SKILLS = [
-  { name: "Frontend", icon: <Globe size={18} />, items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"] },
-  { name: "Backend", icon: <Terminal size={18} />, items: ["Node.js", "PostgreSQL", "Redis", "Supabase", "GraphQL"] },
-  { name: "DevOps", icon: <Cpu size={18} />, items: ["Docker", "AWS", "Vercel", "CI/CD Pipelines"] },
+  { name: "Frontend", icon: <Globe size={18} />, items: ["HTML/CSS", "Flutter (Frontend)"] },
+  { name: "Backend & Data", icon: <Terminal size={18} />, items: ["Python", "Django (learning)", "SQL", "Firebase basics"] },
+  { name: "Tools", icon: <Cpu size={18} />, items: ["Git", "VS Code"] },
 ];
 
 // --- COMPONENTS ---

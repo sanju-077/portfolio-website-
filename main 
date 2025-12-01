@@ -32,7 +32,7 @@ const PERSONAL_INFO = {
 const PROJECTS = [
   {
     title: "Nebula Dashboard",
-    description: "A high-performance analytics dashboard for SaaS platforms. Features real-time data visualization via WebSockets and a customizable widget system.",
+    description: `A high-performance analytics dashboard for SaaS platforms. Features real-time data visualization via WebSockets and a customizable widget system.`,
     tags: ["React", "Next.js", "TypeScript", "D3.js"],
     link: "#",
     github: "#"
@@ -54,9 +54,9 @@ const PROJECTS = [
 ];
 
 const SKILLS = [
-  { name: "Frontend", icon: <Globe size={18} />, items: ["React", "Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"] },
-  { name: "Backend", icon: <Terminal size={18} />, items: ["Node.js", "PostgreSQL", "Redis", "Supabase", "GraphQL"] },
-  { name: "DevOps", icon: <Cpu size={18} />, items: ["Docker", "AWS", "Vercel", "CI/CD Pipelines"] },
+  { name: "Frontend", icon: <Globe size={18} />, items: ["HTML/CSS", "Flutter (Frontend)"] },
+  { name: "Backend & Data", icon: <Terminal size={18} />, items: ["Python", "Django (learning)", "SQL", "Firebase basics"] },
+  { name: "Tools", icon: <Cpu size={18} />, items: ["Git", "VS Code"] },
 ];
 
 // --- COMPONENTS ---
