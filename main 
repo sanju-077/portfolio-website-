@@ -318,7 +318,7 @@ const Contact = () => {
         <p className="text-emerald-400 font-mono mb-4">What's Next?</p>
         <h2 className="text-4xl md:text-5xl font-bold text-slate-100 mb-6">Get In Touch</h2>
         <p className="text-slate-400 text-lg mb-12">
-          Although I'm not currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+          I’m still early in my journey, but I’m very curious about building new things and growing as a developer. I’m always open to opportunities — learning, collaborating, or trying something new. If you want to share an idea, ask something, or just say hi, feel free to reach out. I’ll do my best to reply!
         </p>
 
         <form onSubmit={handleSubmit} className="text-left bg-slate-800/50 p-8 rounded-2xl border border-slate-700 shadow-xl">
